@@ -1,5 +1,5 @@
 # c-lab
-### In this repo i will try to give good readable solution of all programs with some usefull comments
+### In this repo i will try to give good readable solution of all programs with some useful comments
 1.	C "Hello, World!" Program
 2.	C Program to Print an Integer (Entered by the User)
 3.	C Program to Add Two Integers
