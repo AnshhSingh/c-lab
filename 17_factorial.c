@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 //refer https://www.mathsisfun.com/numbers/factorial.html
+    //solved using a better way using recursions below
 {
     int i, factorial = 1, num;
     scanf("%d", &num);
@@ -12,3 +13,19 @@ int main()
     printf("%d", factorial);
     return 0;
 }
+// #include <stdio.h>
+// int fact(int n1)
+// {
+//     if (n1 <= 1)
+//     {
+//         return 1;
+//     }
+//     return n1 * fact(n1 - 1); //factorial of a number is basically n*(n-1)!
+// }
+// int main()
+// {
+//     int num;
+//     scanf("%d", &num);
+//     printf("%d", fact(num));
+//     return 0;
+// }
